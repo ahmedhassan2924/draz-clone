@@ -1,0 +1,69 @@
+.innerLogin{
+    background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 900px;
+  width: 55vw;
+  min-height: 300;
+  padding: 20px;
+  height: 40vh;
+}
+.leftBox{
+    background-color:white;
+    min-height: 40vh;
+    min-width: 60vb;}
+    .rightBox{
+        background-color: white;
+        min-height: 40vh;
+        min-width: 60vb;
+
+    }
+    .leftFields{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+    .Reset{
+        display: flex;
+        justify-content:flex-end;
+        margin-right: 27px;
+        
+        
+        
+    }
+    .rP{
+        color: #049CB9;
+        font-size: 10px;
+        cursor: pointer;
+    }
+    .signupButton{
+        display: flex;
+       justify-content: space-evenly;
+       margin-top: 25px;
+    }
+    .faceBook{
+        display: flex;
+        justify-content: space-evenly;
+        margin-top: 25px;
+    }
+    .Optional{
+        margin-left: 15px;
+    }
+    .h1Heading{
+       /* min-height: 20vh; */
+        display:flex;
+       justify-content: space-between;
+        
+        
+        /* background-color: thistle; */
+        
+    }
+    .centerHeading{
+        display: flex;
+        justify-content: space-evenly;
+        
+        
+    
+    }

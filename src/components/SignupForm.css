@@ -1,0 +1,104 @@
+.Body {
+  background-color: #eff0f5;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 85vh;
+}
+.innerBox {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: start;
+  max-width: 900px;
+  width: 55vw;
+  max-height: 300px;
+  padding: 20px;
+
+}
+.Left {
+  background-color: white;
+}
+.Right {
+  background-color: white;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+
+.Fields {
+  padding: 10px 10px;
+  max-width: 280px;
+  width: 280px;
+  min-width: 280;
+}
+
+.singleField {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.signButton {
+  background-color: #f57224;
+  border: solid 0px;
+  color: white;
+  padding: 10px 10px;
+  max-width: 300px;
+  width: 300px;
+  min-width: 280;
+}
+  /* margin-left: 20px;
+  padding: 14px 109px;
+  margin-top: 20px;
+} */
+
+.Agree {
+  font-size: 10px;
+}
+
+.labelSize {
+  font-size: 13px;
+  color: black;
+  margin-bottom: 5px;
+}
+.Condition{
+    color: #55A1B9;
+    cursor: pointer;
+}
+.signButton:hover{
+    background-color: lightsalmon;
+    cursor: pointer;
+
+}
+.checkBox{
+    display: flex;
+    flex-direction: row;
+}
+.Sms{
+    font-size: 10px;
+}
+.IButton{
+    width:150px ;
+    height: 40px;
+    color: white;
+    background-color: #3B5998;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+    border-style: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.GButton{
+    background-color: #D34836;  
+    padding: 0px 20px;
+}
+.mButton{
+    display: flex;
+    justify-content: space-between;
+}

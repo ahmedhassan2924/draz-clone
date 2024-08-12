@@ -1,0 +1,24 @@
+.Categories{
+    border: solid gray 2px;
+   /* background-color: aqua; */
+    padding-top: 15px;
+  padding-left: 20px;
+  max-height: 400px;
+  min-width: 200px;
+  border-radius: 10px;
+  
+  
+
+}
+.categoryTitle{
+    font-size: 12px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.iconContainer{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    /* background-color: bisque; */
+}

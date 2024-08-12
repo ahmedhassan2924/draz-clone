@@ -1,0 +1,43 @@
+.cardStyle{
+    border: solid white 2px;
+    min-height: 30vh;
+    /* min-width: 20vw; */
+    margin-left: 20px;
+    margin-top: 10px;
+    /* padding: 10px 20px; */
+    width: 200px;
+}
+.cardStyle:hover{
+    /* background-color: linen; */
+    cursor: pointer;
+    color: rgb(0, 145, 255);
+    box-shadow: 0 1px 6px #0000004d;
+}
+.Image{
+    width: 200px;
+}
+.Discription{
+    font-size: 12px;
+    line-height: 1.5em;
+    height: 4em;   
+    overflow:hidden;
+    text-overflow: ellipsis;
+    
+}
+.AllRates{
+   display: flex;
+   flex-direction: row;
+   align-items: baseline;
+    
+}
+.Rates{
+    color:#F85606;
+    font-size: 20px;
+    font-weight:bolder
+}
+.originalRates{
+    font-size: 10px;
+    color: gray;
+    text-decoration: line-through;
+
+}
